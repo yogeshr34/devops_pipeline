@@ -1,0 +1,52 @@
+# Maven
+target/
+pom.xml.versionsBackup
+pom.xml.next
+.mvn/timing.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.springBeans
+.factorypath
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build
+build/
+dist/
+
+# Docker
+.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+# Sonar
+.sonar/
+.scannerwork/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
